@@ -10,6 +10,7 @@ func _ready():
 	$interface/Button.connect("pressed",self,"regen")
 	
 	var _size = Vector2(32,16)
+	_size = Vector2(8,4)
 	
 	var _v_size = get_viewport_rect().size
 	for x in range(_size.x):
@@ -37,6 +38,7 @@ func _ready():
 	],Vector2(6,12))
 	
 	#m.set_data_from_texture(load("res://mask.png"))
+	m.set_data_from_texture(load("res://mask_tree.png"))
 	regen()
 
 func regen():

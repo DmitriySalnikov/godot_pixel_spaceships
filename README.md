@@ -3,6 +3,7 @@ The implementation of Pixel Spaceships for Godot Engine as a module.
 Based on https://github.com/zfedoran/pixel-sprite-generator
 
 <a href="https://github.com/DmitriySalnikov/godot_pixel_spaceships/blob/master/pic_0.png"><img src="https://github.com/DmitriySalnikov/godot_pixel_spaceships/blob/master/pic_0.png" width="50%" ></a><a href="https://github.com/DmitriySalnikov/godot_pixel_spaceships/blob/master/pic_1.png"><img src="https://github.com/DmitriySalnikov/godot_pixel_spaceships/blob/master/pic_1.png" width="50%" ></a>
+<a href="https://github.com/DmitriySalnikov/godot_pixel_spaceships/blob/master/pic_2.png"><img src="https://github.com/DmitriySalnikov/godot_pixel_spaceships/blob/master/pic_2.png" width="50%" ></a>
 
 ## Installation
 
