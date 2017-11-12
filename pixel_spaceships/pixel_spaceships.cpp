@@ -514,6 +514,9 @@ Ref<ImageTexture> PixelSpaceships::make_texture()
 }
 Ref<ImageTexture> PixelSpaceships::generate_texture(Ref<PixelSpaceshipsMask> _mask, Ref<PixelSpaceshipsOptions> _options, int _seed)
 {
+	if (_mask == 0 || _options == 0)
+		return 0;
+
 	generate(_mask, _options, _seed);
 	
 	generate_colors();
