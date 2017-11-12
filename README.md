@@ -2,6 +2,8 @@
 The implementation of Pixel Spaceships for Godot Engine as a module.
 Based on https://github.com/zfedoran/pixel-sprite-generator
 
+<a href="https://github.com/DmitriySalnikov/godot_pixel_spaceships/blob/master/pic_0.png"><img src="https://github.com/DmitriySalnikov/godot_pixel_spaceships/blob/master/pic_0.png" width="50%" ></a><a href="https://github.com/DmitriySalnikov/godot_pixel_spaceships/blob/master/pic_1.png"><img src="https://github.com/DmitriySalnikov/godot_pixel_spaceships/blob/master/pic_1.png" width="50%" ></a>
+
 ## Installation
 
 To install, clone latest version of Godot Engine and drop the `pixel_spaceships` directory into the `godot/modules` directory and compile it.
@@ -48,13 +50,13 @@ m.set_data_from_texture(load("res://mask.png"))
 ```
 Mask texture must have 4 colors!
 
-White = 0 = Always empty
+White(255,255,255) = 0 = Always empty
 
-Red = -1 = Always solid
+Red(255,0,0) = -1 = Always solid
 
-Green = 1 = "Body" empty/Avoid by seed
+Green(0,255,0) = 1 = "Body" empty/Avoid by seed
 
-Blue = 2 = "Cockpit" empty/Avoid by seed
+Blue(0,0,255) = 2 = "Cockpit" empty/Avoid by seed
 
 Like this:
 
