@@ -1,2 +1,4 @@
+*.o
+*.obj
 *.pyc
 example/.import
